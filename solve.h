@@ -7,8 +7,7 @@ enum{
 
 void solve(int cubearray[48], char movelist[21])
 {
-    move_R(cubearray);
-    printcube(cubearray);
+    
 }
 
 #endif

@@ -7,7 +7,8 @@
 //white, green, red, organge, blue, yellow.
 
 
-int main(int argc, char* argv[])
+int 
+main(int argc, char* argv[])
 {
     int cubestate[48] = {
         WHITE, WHITE,WHITE,

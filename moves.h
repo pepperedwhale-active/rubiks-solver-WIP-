@@ -6,6 +6,8 @@ enum{
 enum{
     R, R_Prime, R_2,L,L_Prime,L2,F,F_Prime,F2,B,B_Prime,B2,U,U_Prime,U2,D,D_Prime,D2
 };
+int 
+moves[18] = {R, R_Prime, R_2,L,L_Prime,L2,F,F_Prime,F2,B,B_Prime,B2,U,U_Prime,U2,D,D_Prime,D2};
 //white is held on top, green in the front and red on the right.
 //an R move is defined as the clockwise rotation of the squares present in the indexes:
 //2,37,42,10
@@ -15,7 +17,8 @@ enum{
 //17,20,22,19
 //an R' move is denoted by the movement of the same indexes in the anticlockwise direction.
 
-void switch_Case(int cubestate[48], int index1, int index2, int index3, int index4, char move)
+void 
+switch_Case(int cubestate[48], int index1, int index2, int index3, int index4, char move)
 {
     switch(move)
     {
@@ -55,7 +58,8 @@ void switch_Case(int cubestate[48], int index1, int index2, int index3, int inde
     }
 }
 
-void moveFace(int cubestate[48], int move)
+void
+moveFace(int cubestate[48], int move)
 {
     switch(move){
         case R:{
